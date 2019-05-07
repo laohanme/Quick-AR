@@ -13,6 +13,12 @@
 		4D95A0B322812419005CBB33 /* QuickAR.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4D95A0B122812419005CBB33 /* QuickAR.xcdatamodeld */; };
 		4D95A0B52281241B005CBB33 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0B42281241B005CBB33 /* Assets.xcassets */; };
 		4D95A0B82281241B005CBB33 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0B62281241B005CBB33 /* LaunchScreen.storyboard */; };
+		4D95A0C422812AE7005CBB33 /* redchair.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0C022812AE6005CBB33 /* redchair.usdz */; };
+		4D95A0C522812AE7005CBB33 /* retrotv.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0C122812AE6005CBB33 /* retrotv.usdz */; };
+		4D95A0C622812AE7005CBB33 /* cupandsaucer.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0C222812AE6005CBB33 /* cupandsaucer.usdz */; };
+		4D95A0C722812AE7005CBB33 /* tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0C322812AE7005CBB33 /* tulip.usdz */; };
+		4D95A0CA22812BA5005CBB33 /* ModelCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D95A0C822812BA5005CBB33 /* ModelCell.swift */; };
+		4D95A0CB22812BA5005CBB33 /* ModelCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D95A0C922812BA5005CBB33 /* ModelCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		4D95A0B42281241B005CBB33 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D95A0B72281241B005CBB33 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D95A0B92281241B005CBB33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D95A0C022812AE6005CBB33 /* redchair.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = redchair.usdz; sourceTree = "<group>"; };
+		4D95A0C122812AE6005CBB33 /* retrotv.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = retrotv.usdz; sourceTree = "<group>"; };
+		4D95A0C222812AE6005CBB33 /* cupandsaucer.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = cupandsaucer.usdz; sourceTree = "<group>"; };
+		4D95A0C322812AE7005CBB33 /* tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file; path = tulip.usdz; sourceTree = "<group>"; };
+		4D95A0C822812BA5005CBB33 /* ModelCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelCell.swift; sourceTree = "<group>"; };
+		4D95A0C922812BA5005CBB33 /* ModelCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ModelCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,29 @@
 		4D95A0A922812419005CBB33 /* QuickAR */ = {
 			isa = PBXGroup;
 			children = (
+				4D95A0BF228126B1005CBB33 /* Model */,
 				4D95A0AA22812419005CBB33 /* AppDelegate.swift */,
 				4D95A0AC22812419005CBB33 /* ViewController.swift */,
+				4D95A0C822812BA5005CBB33 /* ModelCell.swift */,
+				4D95A0C922812BA5005CBB33 /* ModelCell.xib */,
 				4D95A0AE22812419005CBB33 /* Main.storyboard */,
-				4D95A0B42281241B005CBB33 /* Assets.xcassets */,
 				4D95A0B62281241B005CBB33 /* LaunchScreen.storyboard */,
+				4D95A0B42281241B005CBB33 /* Assets.xcassets */,
 				4D95A0B92281241B005CBB33 /* Info.plist */,
 				4D95A0B122812419005CBB33 /* QuickAR.xcdatamodeld */,
 			);
 			path = QuickAR;
+			sourceTree = "<group>";
+		};
+		4D95A0BF228126B1005CBB33 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D95A0C222812AE6005CBB33 /* cupandsaucer.usdz */,
+				4D95A0C022812AE6005CBB33 /* redchair.usdz */,
+				4D95A0C122812AE6005CBB33 /* retrotv.usdz */,
+				4D95A0C322812AE7005CBB33 /* tulip.usdz */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +152,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D95A0B82281241B005CBB33 /* LaunchScreen.storyboard in Resources */,
+				4D95A0C622812AE7005CBB33 /* cupandsaucer.usdz in Resources */,
+				4D95A0C522812AE7005CBB33 /* retrotv.usdz in Resources */,
 				4D95A0B52281241B005CBB33 /* Assets.xcassets in Resources */,
+				4D95A0C722812AE7005CBB33 /* tulip.usdz in Resources */,
 				4D95A0B022812419005CBB33 /* Main.storyboard in Resources */,
+				4D95A0C422812AE7005CBB33 /* redchair.usdz in Resources */,
+				4D95A0CB22812BA5005CBB33 /* ModelCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +172,7 @@
 				4D95A0AD22812419005CBB33 /* ViewController.swift in Sources */,
 				4D95A0AB22812419005CBB33 /* AppDelegate.swift in Sources */,
 				4D95A0B322812419005CBB33 /* QuickAR.xcdatamodeld in Sources */,
+				4D95A0CA22812BA5005CBB33 /* ModelCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
